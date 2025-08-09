@@ -1,0 +1,49 @@
+﻿# Ignore build output folders
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio Code settings folder
+.vscode/
+.vs/
+
+# Ignore NuGet package folders
+*.nupkg
+packages/
+.nuget/
+
+# Ignore ReSharper files
+_ReSharper*/
+*.ReSharper
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore test result files
+TestResults/
+*.trx
+
+# Ignore log files
+*.log
+
+# Ignore publish output
+publish/
+
+# Ignore Docker generated files (optional)
+docker-compose.override.yml
+
+# Ignore npm logs (if you use npm in any frontend)
+npm-debug.log*
+
+# Ignore JetBrains Rider IDE settings (if you use Rider)
+.idea/
