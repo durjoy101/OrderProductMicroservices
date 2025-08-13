@@ -1,0 +1,16 @@
+syntax = "proto3";
+option csharp_namespace = "ProductService.Grpc";
+
+service ProductGrpc {
+  rpc CheckProductStock (StockRequest) returns (StockReply);
+}
+
+message StockRequest {
+  string productId = 1;
+  int32 quantity = 2;
+}
+
+message StockReply {
+  bool isAvailable = 1;
+  int32 remaining = 2;
+}
